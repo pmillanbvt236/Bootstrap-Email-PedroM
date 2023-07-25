@@ -1,0 +1,258 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/***    Container ***/
+.container-fluid{
+   height: 100vh;
+}
+/****** Background Panel******/
+.panel{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+    margin:.2em;
+    box-shadow: 0px 2px 19px 0px rgba(0,0,0,0.75);
+}
+/***************  Top column Header  ********************/
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:steelblue ;
+    width:100%;
+    height:70px;
+    margin-top: 10px;
+    box-shadow: 0px 2px 19px 0px rgba(0,0,0,0.75);
+}
+/*****  New Message Button  **********/
+.compose{
+    background-color: transparent;
+    height: 30px;
+    width:150px ;
+    border-radius: 10px;
+    border:none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height:50px;
+}
+/********   New Message Hover   ***********/
+    .compose:hover{
+        background-color: rgba(50, 95, 232, 0.424);
+        color: white;
+        box-shadow: 10px 10px 10px -7px rgba(0,0,0,0.75);
+    }
+    /****   Search Input   **************/
+    .search{
+        width: 100px;
+       
+        border-radius: 9px;
+        height: 40px;
+        border: none;
+    }
+ 
+/********************   Column One  ************************/
+/*****    Left Column  ****/
+.left-column{
+    height: 750px;
+    background-color:steelblue;
+    margin-top: 30px;   
+    display: flex;
+    justify-content: center;
+}
+/****** Left Column button ********/
+.button{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    flex-grow: 1;
+    margin-top: 10px;
+}
+/**     "All Inboxes" & Button Hover Animation            **/
+.button1{
+    background-color: transparent;
+    color: black;
+    border: none ;
+    border-radius: 20px;
+    height: 50px;
+}
+/********   All Inbox transition    ***********/
+.button1{
+    transition-duration: 0.2s;
+}
+/********   All Inbox hover    ***********/
+ .button1:hover{
+    background-color: rgba(50, 95, 232, 0.424); 
+    color: white;
+    box-shadow: 10px 10px 10px -7px rgba(0,0,0,0.75);
+}
+/*****************   All Mail & Button Hover Animation  ************/
+.button2{
+    background-color:transparent;
+    color: black;
+    border: none ;
+    border-radius: 20px;
+    height: 50px;
+}
+/*****************   All Mail transition  ************/
+.button2{
+    transition-duration: 0.2s;
+}
+/*****************   All Mail hover  ************/
+ .button2:hover{
+    background-color:rgba(50, 95, 232, 0.424); 
+    color: white;
+    box-shadow: 10px 10px 10px -7px rgba(0,0,0,0.75);
+}
+/******************  Sent & Button Hover Animation  ***********/
+.button3{
+    background-color: transparent;
+    color: black;
+    border: none ;
+    border-radius: 20px;
+    height: 50px;
+}
+/******************  Sent transition  ***********/
+.button3{
+    transition-duration: 0.2s;
+}
+/******************  Sent hover  **************/
+ .button3:hover{
+    background-color:rgba(50, 95, 232, 0.424); 
+    color: white;
+    box-shadow: 10px 10px 10px -7px rgba(0,0,0,0.75);
+}
+/************** Draft & Button Hover Animation  *************/
+.button4{
+    background-color: transparent;
+    color: black;
+    border: none ;
+    border-radius: 20px;
+    height: 50px;
+}
+/************** Draft transition *************/
+.button4{
+    transition-duration: 0.2s;
+}
+/************** Draft hover *************/
+ .button4:hover{
+    background-color: rgba(50, 95, 232, 0.424); 
+    color: white;
+    box-shadow: 10px 10px 10px -7px rgba(0,0,0,0.75);
+}
+/****************  Spam & Button Hover Animation   *************/
+.button5{
+    background-color: transparent;
+    color: black;
+    border: none ;
+    border-radius: 20px;
+    height: 50px;
+}
+/****************  Spam transition   *************/
+.button5{
+    transition-duration: 0.2s;
+}
+/****************  Spam hover  *************/
+ .button5:hover{
+    background-color: rgba(50, 95, 232, 0.424); 
+    color: white;
+    box-shadow: 10px 10px 10px -7px rgba(0,0,0,0.75);
+}
+/*****************   Trash & Button Hover Animation   *************/
+.button6{
+    background-color: transparent;
+    color: black;
+    border: none ;
+    border-radius: 20px;
+    height: 50px;
+}
+/*****************   Trash Transition  *************/
+.button6{
+    transition-duration: 0.2s;
+}
+/*****************   Trash hover   *************/
+ .button6:hover{
+    background-color: rgba(50, 95, 232, 0.424); 
+    color: white;
+    box-shadow: 10px 10px 10px -7px rgba(0,0,0,0.75);
+}
+/**************  Center Column  ******************/
+.center-panel{
+    height: 750px;
+    background-color:cornsilk;
+    margin-top: 30px;
+}
+/*****************   Notification flex  *************/
+.notification{
+   display: flex;
+   flex-direction:column ;
+  }
+  /*****************   Notification Buttons   *************/
+#notification{
+    background-color:transparent ;
+    border: none;
+    border-bottom: .1px solid;
+    height: 70px;
+}
+   /*****************   Notification hover   *************/
+#notification:hover{
+    background-color: rgb(235, 210, 111);
+    color: white; 
+    box-shadow: 10px 10px 10px -7px rgba(0,0,0,0.75);
+}
+/******************    Column Right/Three Buttons ****************/
+/*****  Right Column    *******/
+.right-column{
+    display: flex;
+    justify-content: center;
+    height: 750px;
+    background-color:cornsilk;
+    margin-top: 30px;
+}
+/******** email ***********/
+.email-content{
+    padding:40px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+/******** email ***********/
+#email{
+    border-bottom: 1px solid gray;
+    padding-bottom: 3px;
+}
+/******** Reply button flex ***********/
+.reply{
+    display: flex;
+    justify-content: flex-end;
+}
+/******** Reply button  ***********/
+#reply{
+
+    height: 50px;
+    width: 70px;
+    border-radius: 20px;
+    border: none;
+    background-color: antiquewhite;
+}
+/******** Reply hover ***********/
+#reply:hover{
+    background-color: whitesmoke;
+    color:black;
+}
+@media screen and (max-width: 768px) {
+    .left-column{
+        height:420px;
+    }
+  
+  }
+  @media screen and (max-width: 768px) {
+    .center-panel{
+        height: 420px;
+    }
+  
+  }
+  @media screen and (max-width: 486px )   {
+    .right-column{
+        height:510px;
+    }
+  
+  }
